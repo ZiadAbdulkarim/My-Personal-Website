@@ -298,3 +298,46 @@ header {
 .تواصل .بطاقة button[type="submit"]:hover {
     background-color: #517ffd;
 }
+
+/* ------------------------------------- */
+/* تصميم الهواتف والأجهزة اللوحية (Media Queries) */
+/* ------------------------------------- */
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    #القائمة {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #المقدمة {
+        padding: 150px 20px 50px 20px;
+        min-height: auto;
+    }
+
+    .بطاقات {
+        flex-direction: column;
+    }
+
+    .بطاقة {
+        margin: 15px 10px;
+    }
+
+    .تواصل {
+        flex-direction: column;
+        width: 95%;
+        gap: 20px;
+    }
+    
+    .تواصل .بطاقة {
+        min-height: auto;
+    }
+}
