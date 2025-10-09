@@ -29,7 +29,7 @@ body {
 
 /* خلفية الصورة مع التمويه */
 body::before {
-    background: url('img/code-background.jpg') no-repeat center center fixed;
+    background: url('assets/code-background.jpg') no-repeat center center fixed;
     content: "";
     position: absolute;
     width: 100%;
@@ -76,7 +76,7 @@ body::before {
     border-radius: 50%;
     width: 220px;
     height: 220px;
-    background-image: url('img/ziad-abdulkarim.jpg');
+    background-image: url('assets/ziad-abdulkarim.jpg');
     background-size: cover;
     background-position: center;
     border: 4px solid var(--primary-color);
